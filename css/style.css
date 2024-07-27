@@ -1,0 +1,248 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar-default{
+    z-index: 1;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+}
+.logo{
+    width: 65px;
+    margin:-7px 0 0 10px;
+
+}
+.wt-btn{
+    padding: 5px 25px 5px 25px;
+    margin: 10px 30px 10px 0;
+    border: none;
+    border-radius: 25px;
+    background-color: rgba(255, 0, 0, 0.884);
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.wt-btn:hover{
+    background-color:  rgba(255, 0, 0, 0.884) ;
+    color: white;
+}
+.btn-default.wt-btn:active:hover{
+    color: white;
+    background-color:rgba(255, 0, 0, 0.884) ;
+    outline: none;
+}
+.homepage{
+    margin-top: 50px;
+    background-image: url('New\ Project.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+.hm-pg-mobile{
+    margin-top: 60px;
+}
+.hm-pg-logo{
+    width: 150px;
+    margin-top: 27%;
+    margin-left: -20px;
+}
+.homepage-title{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: -20px;
+}
+.homepage-para{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding-right: 22%;
+    letter-spacing: .7px;
+    margin-right: -20px;
+}
+.join-btn{
+    padding: 10px 30px 10px 30px;
+    border-radius: 40px;
+    font-weight: bold;
+    
+}
+.join-btn:hover{
+    transition: 0.2s;
+    transform: translateX(-5%);
+    background-color: white;
+    color: black;
+}
+.btn-default.join-btn:active:hover{
+    color: black;
+    background-color:white ;
+    outline: none;
+}
+.join-wtl{
+    background-color:papayawhip;
+}
+.join-title{
+    color: rgb(255, 60, 0);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 50px 0 20px 0;
+}
+.form-group{
+    padding: 10px;
+}
+.form-control{
+    border-radius: 10px;
+    padding: 20px;
+}
+.error{
+    color: red;
+
+}
+.join-cfm-btn{
+    margin: 15px 0 50px 0;
+    background-color: orangered;
+    border-radius: 40px;
+}
+.join-cfm-btn:hover{
+    background-color: orangered;
+    outline: none;
+    color: black;
+}
+.btn-default.join-cfm-btn:active:hover{
+    color: black;
+    background-color:orangered ;
+    outline: none;
+}
+footer{
+    background-color: black;
+}
+.foot-para{
+    color: white;
+    margin-top: 5px;
+}
+.popup{
+    margin-top: 2px;
+    background-color: blanchedalmond;
+    display: none;
+}
+.open{
+    display: initial;
+    transition: .4s ease;
+    transition-delay: .25s;
+}
+.pop-msg-t1{
+    color: orangered;
+    font-size: 30px;
+    font-weight: bold;
+}
+.pop-msg-t2{
+    color: orangered;
+    font-size: 30px;
+    font-weight: bold;
+}
+@media (max-width:767px) {
+    .homepage-title{
+        color: white;
+        font-size: 45px;
+        text-align: center;
+        font-weight: bold;
+        margin-left: -2px;
+    }
+    .homepage-para{
+        font-size: 20px;
+        color: white;
+        text-align: center;
+        padding-right: 10%;
+        letter-spacing: .7px;
+        margin-right: -20px;
+    }
+    .join-btn{
+        padding: 10px 30px 10px 30px;
+        border-radius: 40px;
+        font-weight: bold;
+        margin-top: 10px;
+        margin-left: 80px;  
+    }
+    .join-title{
+        color: rgb(255, 60, 0);
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 35px;
+        font-weight: bold;
+        margin: 50px 0 20px 0;
+    }
+    .form-group{
+        padding: 0px 20px;
+    }
+    .form-control{
+        border-radius: 10px;
+        padding: 30px;
+    }
+    .join-cfm-btn{
+        margin: 0px 0 50px 0;
+        background-color: orangered;
+        border-radius: 40px;
+    }
+}
+@media (min-width:768px) and (max-width:991px) {
+    .hm-pg-mobile{
+        margin-top: 60px;
+        margin-left: 160px;
+    }
+    .hm-pg-logo{
+        width: 100px;
+        margin-top: 2%;
+        margin-left: -20px;
+    }
+    .homepage-title{
+        color: white;
+        font-size: 45px;
+        font-weight: bold;
+        margin-left: -10px;
+    }
+    .homepage-para{
+        font-size: 20px;
+        color: white;
+        padding-right: 0;
+        text-align: center;
+        letter-spacing: .7px;
+        margin-right: -10px;
+    }
+    .join-btn{
+        padding: 10px 30px 10px 30px;
+        border-radius: 40px;
+        font-weight: bold;
+        margin-top: 7px;
+        margin-left: 40%;
+        
+    }
+    .join-btn:hover{
+        transition: 0.2s;
+        transform: translateX(-5%);
+        background-color: white;
+        color: black;
+    }
+    .join-wtl{
+        background-color:papayawhip;
+    }
+    .join-title{
+        color: rgb(255, 60, 0);
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 30px;
+        font-weight: bold;
+        margin: 50px 0 20px 0;
+    }
+    .form-group{
+        padding: 7px 20px;
+    }
+    .form-control{
+        border-radius: 10px;
+        padding: 20px;
+    }
+    .join-cfm-btn{
+        margin: 15px 0 50px 0;
+        background-color: orangered;
+        border-radius: 40px;
+        padding: 7px 15px;
+    }
+}

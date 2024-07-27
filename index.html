@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header>
+    <nav class="navbar navbar-default navbar-fixed-top">
+       <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#"><img src="img/FoodieLogo.png" class="logo"></a>
+            </div>
+            <div class="navbar-right">
+                <a href="#join"><button class="btn btn-default wt-btn hidden-xs">Join the Waitlist</button></a>
+            </div>
+       </div>
+    </nav>
+    </header>
+    <main>
+        <div class="container-fluid homepage">
+            <div class="container homepage-content">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img src="img/iphone-13.png" class="hm-pg-mobile img-responsive">
+                    </div>
+                    <div class="col-md-7">
+                        <img src="img/FoodieLogo.png" class="hm-pg-logo img-responsive hidden-xs">
+                        <h3 class="homepage-title">Welcome to Foodie</h3>
+                        <p class="homepage-para">At foodie, we redefine convenience with our seamless food delivery service. Whether you're craving the flavors of home or exploring new culinary delights, foodie brings it all to your doorstep. From hearty breakfasts to gourmet dinners and everything in between, our curated menu caters to every palate and preference.</p>
+                        <a href="#join"><button class="btn btn-default join-btn">Join the Waitlist</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid join-wtl text-center" id="join">
+            <h3 class="join-title">Join the Waitlist</h3>
+            <form class="form-inline" id="forms">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Name" id="name">
+                    <div class="error"></div>
+                </div>
+                <div class="form-group">
+                    <input type="tel" class="form-control" placeholder="Phone Number" id="phno">
+                    <div class="error"></div>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="City" id="city">
+                    <div class="error"></div>
+                </div>
+                <br>
+                <button type="submit" class="btn btn-default join-cfm-btn popup-done">Join the Waitlist</button>
+            </form>
+            <div class="container text-center popup" id="pop">
+                <h2 class="pop-msg-t1">Join the Waitlist</h2>
+                <h1 class="pop-msg-t2"> Thank You!</h1>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container-fluid text-center">
+            <p class="foot-para">&copy; Foodie, 2024</p>
+        </div>
+    </footer>
+    
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
